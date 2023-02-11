@@ -4,6 +4,10 @@
         padding: 1.5rem 2rem;
     }
 
+    section {
+        padding: 3rem 2rem;
+    }
+
 }
 
 @media (max-width: 991px) {
@@ -19,7 +23,7 @@
     #menu-btn {
         display: inline-block;
     }
-    
+
     .header {
 
         justify-content: flex-start;
@@ -50,6 +54,22 @@
 
     }
 
+    .home {
+        margin-top: 10rem;
+
+        .content {
+            
+            span {
+                font-size: 8vw;
+            }
+
+            h3{
+                font-size: 9vw;
+            }
+
+        }
+    }
+
 }
 
 @media (max-width: 450px) {
@@ -62,7 +82,7 @@
 
 @media (max-width: 328px) {
 
-    .header{
+    .header {
 
         padding: 1.5rem 1rem;
 

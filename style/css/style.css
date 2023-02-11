@@ -59,6 +59,10 @@ body {
   color: rgba(17, 17, 17, 0.7);
 }
 
+section {
+  padding: 3rem 9%;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -96,16 +100,142 @@ header .navbar a:hover {
   margin-top: 9rem;
   width: 90%;
   border-radius: 1rem;
-  background: url("../../../images/home-bg.jpg") no-repeat;
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url("../../../images/home-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
   min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+.home .content {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.home .content span {
+  font-weight: bolder;
+  color: transparent;
+  -webkit-text-stroke: 0.1rem #fff;
+  font-size: 4vw;
+}
+.home .content h3 {
+  font-size: 6vw;
+  color: #fff;
+}
+.home .content p {
+  max-width: 60rem;
+  margin: 1rem auto;
+  font-size: 1.4rem;
+  color: #aaa;
+  line-height: 2;
+}
+
+.book-form {
+  width: 80%;
+  margin: 1rem auto;
+  margin-top: -5rem;
+  background: #222;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgb(17, 17, 17);
+  padding: 3rem 2rem;
+}
+.book-form form {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 1.7rem;
+}
+.book-form form .inputbox {
+  flex: 1 1 25rem;
+}
+.book-form form .inputbox span {
+  font-size: 1.4rem;
+  color: #aaa;
+  margin-left: 1rem;
+}
+.book-form form .inputbox input {
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  border-radius: 5rem;
+  border: 0.2rem solid #29d9d5;
+  font-size: 1.6rem;
+  color: #aaa;
+  text-transform: none;
+  background: none;
+  margin-top: 1rem;
+}
+.book-form form .inputbox ::-webkit-calendar-picker-indicator {
+  filter: invert(0.45);
+}
+.book-form form .inputbox input[type=number]::-webkit-outer-spin-button,
+.book-form form .inputbox input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.book-form form .inputbox input[type=number] {
+  -moz-appearance: textfield;
+}
+.book-form form .btn {
+  flex: 1 1 15rem;
+  padding: 1.2rem 1.4rem;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+.about .video-container {
+  flex: 1 1 42rem;
+}
+.about .video-container video {
+  border-radius: 1rem;
+  width: 100%;
+}
+.about .video-container .controls {
+  text-align: center;
+  padding: 2rem 0;
+}
+.about .video-container .controls .control-btn {
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0.7rem;
+  cursor: pointer;
+}
+.about .video-container .controls .control-btn:hover {
+  background-color: #29d9d5;
+}
+.about .content {
+  flex: 1 1 42rem;
+  margin-bottom: 5rem;
+}
+.about .content span {
+  color: #29d9d5;
+  font-size: 2rem;
+}
+.about .content h3 {
+  color: #fff;
+  font-size: 4rem;
+  margin-top: 0.5rem;
+}
+.about .content p {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  color: #aaa;
+  line-height: 2;
 }
 
 @media (max-width: 1200px) {
   .header {
     padding: 1.5rem 2rem;
+  }
+  section {
+    padding: 3rem 2rem;
   }
 }
 @media (max-width: 991px) {
@@ -139,6 +269,15 @@ header .navbar a:hover {
     margin: 2rem;
     font-size: 2rem;
     display: block;
+  }
+  .home {
+    margin-top: 10rem;
+  }
+  .home .content span {
+    font-size: 8vw;
+  }
+  .home .content h3 {
+    font-size: 9vw;
   }
 }
 @media (max-width: 450px) {
