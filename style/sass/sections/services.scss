@@ -1,0 +1,34 @@
+.services .box-container {
+    @include grid(32rem);
+
+    .box{
+        background-color: $bg-color;
+        text-align: center;
+        padding: 3rem;
+        border-radius: 1rem;
+        border: .2rem solid $bg-color;
+
+        i{
+            color: $blue;
+            font-size: 4rem;
+            margin-bottom: 2rem;
+        }
+
+        h3{
+            color: $white;
+            font-size: 2rem;
+        }
+
+        p{
+            color: $light-color;
+            font-size: 1.4rem;
+            line-height: 2;
+            padding: 1rem 0;
+        }
+
+        &:hover{
+            border-color: $blue;
+        }
+    }
+
+}

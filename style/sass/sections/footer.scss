@@ -1,0 +1,70 @@
+.footer .box-container {
+
+    @include grid(25rem);
+
+    .box {
+
+        .logo {
+            padding-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+            color: #aaa;
+            padding: 1rem 0;
+            line-height: 2;
+        }
+
+        .share {
+            padding-top: 1rem;
+
+            a {
+
+                &:hover {
+                    background-color: $blue;
+                    color: $bg-color;
+                }
+
+
+                height: 4.5rem;
+                width: 4.5rem;
+                font-size: 1.7rem;
+                line-height: 4rem;
+                text-align: center;
+                border: $border;
+                border-radius: 50%;
+                color: $blue;
+                display: inline-block;
+                margin-right: .5rem;
+            }
+        }
+
+        h3 {
+            font-size: 2.2rem;
+            color: $white;
+        }
+
+        .links {
+            font-size: 1.4rem;
+            color: $light-color;
+            padding: 1rem 0;
+            width: 100%;
+            display: block;
+
+            &:hover {
+                color: $blue;
+
+                i {
+                    padding-right: 2rem;
+                }
+            }
+
+            i {
+                color: $blue;
+                padding-right: .5rem;
+            }
+        }
+
+    }
+
+}

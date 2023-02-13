@@ -35,4 +35,20 @@
             line-height: 2;
         }
     }
+
+    @media (max-width: 768px) {
+        margin-top: 10rem;
+
+        .content {
+
+            span {
+                font-size: 8vw;
+            }
+
+            h3 {
+                font-size: 9vw;
+            }
+
+        }
+    }
 }
