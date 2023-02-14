@@ -11,7 +11,7 @@
 
 <h3 align="center">Utilização</h3>
 
-<h4 align="center"><a href="https://joaopedrolt.github.io/travel-frontend/">Você pode acessar esse projeto clicando aqui</a></h3>
+<h4 align="center"><a href="https://joaopedrolt.github.io/journey-frontend/">Você pode acessar esse projeto clicando aqui</a></h3>
 <h5 align="center">Obs: Possibilidade de haver delay ou indisponibilidade por conta do host</h5>
 
 - Navegue pelas funcionalidades da página.
