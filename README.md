@@ -5,7 +5,7 @@
 - Nome do Projeto: Journey, agência de viagens.
 - Autoria: Código inspirado no canal Mr. Web Designer.
 - Proposito: Aperfeiçoamento em Sass e Animation on scroll (Aos).
-- Progresso: Finalizado.
+- Progresso: Completo e responsivo.
 - Tecnologias utilizadas: Html, Sass, Css e Javascript.
 - Requisitos: Qualquer navegador.
 
