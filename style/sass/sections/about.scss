@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     gap: 2rem;
     margin-top: 3.5rem;
+    padding-bottom: 0;
 
     .video-container {
         flex: 1 1 42rem;
@@ -61,7 +62,8 @@
 
         @media (max-width: 798px) {
             text-align: center;
-            margin-bottom: 4rem;
+            margin-bottom: 0;
+            margin-bottom: 3rem;
 
             p {
                 padding: 1rem 2.5rem;

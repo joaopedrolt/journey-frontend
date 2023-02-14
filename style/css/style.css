@@ -130,6 +130,7 @@ header .navbar a:hover {
   color: transparent;
   -webkit-text-stroke: 0.1rem #fff;
   font-size: 4vw;
+  text-transform: none;
 }
 .home .content h3 {
   font-size: 6vw;
@@ -200,8 +201,9 @@ header .navbar a:hover {
   -moz-appearance: textfield;
 }
 .book-form form .btn {
-  flex: 1 1 15rem;
+  flex: 1 1 25rem;
   padding: 1.2rem 1.4rem;
+  margin-top: 2.5rem;
 }
 
 .about {
@@ -210,6 +212,7 @@ header .navbar a:hover {
   flex-wrap: wrap;
   gap: 2rem;
   margin-top: 3.5rem;
+  padding-bottom: 0;
 }
 .about .video-container {
   flex: 1 1 42rem;
@@ -257,7 +260,8 @@ header .navbar a:hover {
 @media (max-width: 798px) {
   .about .content {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 0;
+    margin-bottom: 3rem;
   }
   .about .content p {
     padding: 1rem 2.5rem;
@@ -364,8 +368,72 @@ header .navbar a:hover {
 }
 .gallery .box-container .box .content h3 {
   color: #fff;
-  margin-top: 0.5rem;
   font-size: 2rem;
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.6rem;
+  align-items: center;
+  padding-top: 0;
+}
+.reviews .content {
+  flex: 1 1 42rem;
+}
+.reviews .content span {
+  color: #29d9d5;
+  font-size: 2rem;
+}
+.reviews .content h3 {
+  color: #fff;
+  font-size: 3rem;
+}
+.reviews .content p {
+  color: #aaa;
+  font-size: 1.4rem;
+  padding: 1rem 0;
+  line-height: 2;
+}
+.reviews .box-container {
+  flex: 1 1 42rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.reviews .box-container .box {
+  background-color: #222;
+  padding: 2rem;
+  flex: 1 1 20rem;
+  border-radius: 2rem;
+  border: 0.2rem solid #222;
+}
+.reviews .box-container .box:hover {
+  border: 0.2rem solid #29d9d5;
+}
+.reviews .box-container .box p {
+  font-size: 1.4rem;
+  line-height: 2;
+  color: #aaa;
+  padding-bottom: 1rem;
+}
+.reviews .box-container .box .user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.reviews .box-container .box .user img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+.reviews .box-container .box .user .info h3 {
+  color: #fff;
+  font-size: 1.7rem;
+}
+.reviews .box-container .box .user .info span {
+  color: #aaa;
+  font-size: 1.5rem;
 }
 
 .blogs .box-container {
@@ -450,9 +518,19 @@ header .navbar a:hover {
 }
 
 .footer .box-container {
+  overflow-y: hidden;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 1.5rem;
+  gap: 3rem;
+  padding: 3rem 2rem;
+}
+.footer .box-container .box {
+  text-align: center;
+}
+.footer .box-container .box .email {
+  text-transform: lowercase;
+  white-space: nowrap;
 }
 .footer .box-container .box .logo {
   padding-bottom: 1rem;
@@ -462,6 +540,10 @@ header .navbar a:hover {
   color: #aaa;
   padding: 1rem 0;
   line-height: 2;
+}
+.footer .box-container .box p i {
+  color: #29d9d5;
+  padding-right: 0.5rem;
 }
 .footer .box-container .box .share {
   padding-top: 1rem;
@@ -502,6 +584,20 @@ header .navbar a:hover {
 .footer .box-container .box .links i {
   color: #29d9d5;
   padding-right: 0.5rem;
+}
+.footer .box-container .box form input[type=email] {
+  width: 85%;
+  padding: 1.2rem 1.4rem;
+  border-radius: 5rem;
+  border: 0.2rem solid #29d9d5;
+  font-size: 1.6rem;
+  color: #aaa;
+  text-transform: none;
+  background: none;
+  margin-top: 1rem;
+}
+.footer .box-container .box form .btn {
+  width: 85%;
 }
 
 @media (max-width: 1200px) {

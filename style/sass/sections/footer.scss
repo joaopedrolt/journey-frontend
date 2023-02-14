@@ -1,8 +1,20 @@
 .footer .box-container {
 
+    overflow-y: hidden;
+
     @include grid(25rem);
+    gap: 3rem;
+
+    padding: 3rem 2rem;
 
     .box {
+
+        text-align: center;
+
+        .email {
+            text-transform: lowercase;
+            white-space: nowrap;
+        }
 
         .logo {
             padding-bottom: 1rem;
@@ -13,6 +25,11 @@
             color: #aaa;
             padding: 1rem 0;
             line-height: 2;
+
+            i {
+                color: #29d9d5;
+                padding-right: 0.5rem;
+            }
         }
 
         .share {
@@ -24,7 +41,6 @@
                     background-color: $blue;
                     color: $bg-color;
                 }
-
 
                 height: 4.5rem;
                 width: 4.5rem;
@@ -62,6 +78,24 @@
             i {
                 color: $blue;
                 padding-right: .5rem;
+            }
+        }
+
+        form {
+            input[type='email'] {
+                width: 85%;
+                padding: 1.2rem 1.4rem;
+                border-radius: 5rem;
+                border: $border;
+                font-size: 1.6rem;
+                color: $light-color;
+                text-transform: none;
+                background: none;
+                margin-top: 1rem;
+            }
+
+            .btn {
+                width: 85%;
             }
         }
 

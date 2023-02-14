@@ -8,62 +8,58 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="./style/css/style.css">
     <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <header class="header">
-
-        <div id="menu-btn" class="fas fa-bars"></div>
-
-        <a href="#" class="logo"><i class="fas fa-paper-plane"></i>journey</a>
-
+        <div data-aos="zoom-in-left" data-aos-delay="150" id="menu-btn" class="fas fa-bars"></div>
+        <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"><i
+                class="fas fa-paper-plane"></i>journey</a>
         <nav class="navbar" id="navbar">
-            <a href="#home">home</a>
-            <a href="#about">sobre</a>
-            <a href="#destination">destinos</a>
-            <a href="#services">serviços</a>
-            <a href="#gallery">galeria</a>
-            <a href="#blogs">blogs</a>
+            <a data-aos="zoom-in-left" data-aos-delay="300" href="#home">home</a>
+            <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">sobre</a>
+            <a data-aos="zoom-in-left" data-aos-delay="600" href="#destination">destinos</a>
+            <a data-aos="zoom-in-left" data-aos-delay="750" href="#services">serviços</a>
+            <a data-aos="zoom-in-left" data-aos-delay="900" href="#gallery">galeria</a>
+            <a data-aos="zoom-in-left" data-aos-delay="1150" href="#blogs">blogs</a>
         </nav>
-
-        <a href="#book-form" class="btn">agendar</a>
-
+        <a data-aos="zoom-in-left" data-aos-delay="1300" href="#book-form" class="btn">agendar</a>
     </header>
 
     <section class="home" id="home">
-
         <div class="content">
-            <span>siga-nos</span>
-            <h3>ao desconhecido</h3>
-            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget aliquam risus, at eleifend nibh.
+            <span data-aos="fade-up" data-aos-delay="400">Siga-nos</span>
+            <h3 data-aos="fade-up" data-aos-delay="300">ao desconhecido</h3>
+            <p data-aos="fade-up" data-aos-delay="450">lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur eget aliquam risus, at eleifend nibh.
                 etiam finibus non enim a auctor.</p>
-            <a href="#" class="btn">agendar</a>
+            <a data-aos="fade-up" data-aos-delay="600" href="#book-form" class="btn">agendar</a>
         </div>
-
     </section>
 
     <section class="book-form" id="book-form">
-
         <form action="">
-            <div class="inputbox">
+            <div data-aos="zoom-in" data-aos-delay="50" class="inputbox">
                 <span>para onde?</span>
                 <input type="text" placeholder="localização" value="" />
             </div>
-            <div class="inputbox">
+            <div data-aos="zoom-in" data-aos-delay="200" class="inputbox">
                 <span>quando?</span>
                 <input type="date" value="" />
             </div>
-            <div class="inputbox">
+            <div data-aos="zoom-in" data-aos-delay="350" class="inputbox">
                 <span>quantos?</span>
                 <input type="number" placeholder="número de pessoas" value="" />
             </div>
-            <input type="submit" class="btn" value="agendar" />
+            <input data-aos="zoom-in" data-aos-delay="500" type="submit" class="btn" value="agendar" />
         </form>
-
     </section>
 
     <section class="about" id="about">
-        <div class="video-container">
+        <div data-aos="fade-right" data-aos-delay="300" class="video-container">
             <video src="images/about-vid-1.mp4" muted loop autoplay class="video"></video>
             <div class="controls">
                 <span class="control-btn" data-src="images/about-vid-1.mp4"></span>
@@ -71,12 +67,12 @@
                 <span class="control-btn" data-src="images/about-vid-3.mp4"></span>
             </div>
         </div>
-        <div class="content">
+        <div data-aos="fade-left" data-aos-delay="600" class="content">
             <span>por que nos escolher?</span>
             <h3>a natureza te aguarda!</h3>
             <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget aliquam risus, at eleifend nibh.
                 etiam finibus non enim a auctor.</p>
-            <a href="#" class="btn">agendar</a>
+            <a href="#book-form" class="btn">agendar</a>
         </div>
     </section>
 
@@ -86,95 +82,86 @@
             <h1>faça sua escolha</h1>
         </div>
         <div class="box-container">
-
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="50">
                 <div class="image">
                     <img src="images/des-1.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>tours &amp; travel</h3>
+                    <h3>tour &amp; viagem</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                    <a href="#">leia sobre <i class="fas fa-angle-right"></i></a>
                 </div>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="100">
                 <div class="image">
                     <img src="images/des-2.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>tours &amp; travel</h3>
+                    <h3>tour &amp; viagem</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                    <a href="#">leia sobre <i class="fas fa-angle-right"></i></a>
                 </div>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="150">
                 <div class="image">
                     <img src="images/des-3.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>tours &amp; travel</h3>
+                    <h3>tour &amp; viagem</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                    <a href="#">leia sobre <i class="fas fa-angle-right"></i></a>
                 </div>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="200">
                 <div class="image">
                     <img src="images/des-4.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>tours &amp; travel</h3>
+                    <h3>tour &amp; viagem</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                    <a href="#">leia sobre <i class="fas fa-angle-right"></i></a>
                 </div>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="250">
                 <div class="image">
                     <img src="images/des-5.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>tours &amp; travel</h3>
+                    <h3>tour &amp; viagem</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                    <a href="#">leia sobre <i class="fas fa-angle-right"></i></a>
                 </div>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
                 <div class="image">
                     <img src="images/des-6.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>tours &amp; travel</h3>
+                    <h3>tour &amp; viagem</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                    <a href="#">leia sobre <i class="fas fa-angle-right"></i></a>
                 </div>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="350">
                 <div class="image">
                     <img src="images/des-7.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>tours &amp; travel</h3>
+                    <h3>tour &amp; viagem</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                    <a href="#">leia sobre <i class="fas fa-angle-right"></i></a>
                 </div>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="400">
                 <div class="image">
                     <img src="images/des-8.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>tours &amp; travel</h3>
+                    <h3>tour &amp; viagem</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                    <a href="#">leia sobre <i class="fas fa-angle-right"></i></a>
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -184,43 +171,36 @@
             <h1>experiências incontáveis</h1>
         </div>
         <div class="box-container">
-
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="50">
                 <i class="fas fa-globe"></i>
-                <h3>worldwide</h3>
+                <h3>internacional</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="100">
                 <i class="fas fa-hiking"></i>
-                <h3>adventures</h3>
+                <h3>aventuras</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="150">
                 <i class="fas fa-utensils"></i>
-                <h3>food &amp; drinks</h3>
+                <h3>refeições &amp; drinks</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="200">
                 <i class="fas fa-hotel"></i>
-                <h3>affordable hotels</h3>
+                <h3>hotéis acessíveis</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="250">
                 <i class="fas fa-wallet"></i>
-                <h3>affordable price</h3>
+                <h3>preços acessíveis</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
                 <i class="fas fa-headset"></i>
-                <h3>24/7 support</h3>
+                <h3>suporte 24h</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
             </div>
-
         </div>
     </section>
 
@@ -229,94 +209,132 @@
             <span>nossa galeria</span>
             <h1>criando memorias inesquecíveis</h1>
         </div>
-
         <div class="box-container">
-
-            <div class="box">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
                 <img src="images/gallery-img-1.jpg" />
                 <div class="content">
-                    <span>travel spot</span>
-                    <h3>iceland</h3>
+                    <span>ponto turístico</span>
+                    <h3>noruega</h3>
                 </div>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
                 <img src="images/gallery-img-2.jpg" />
                 <div class="content">
-                    <span>travel spot</span>
-                    <h3>iceland</h3>
+                    <span>ponto turístico</span>
+                    <h3>brazil</h3>
                 </div>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
                 <img src="images/gallery-img-3.jpg" />
                 <div class="content">
-                    <span>travel spot</span>
-                    <h3>iceland</h3>
+                    <span>ponto turístico</span>
+                    <h3>alaska</h3>
                 </div>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
                 <img src="images/gallery-img-6.jpg" />
                 <div class="content">
-                    <span>travel spot</span>
-                    <h3>iceland</h3>
+                    <span>ponto turístico</span>
+                    <h3>noruega</h3>
                 </div>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
                 <img src="images/gallery-img-4.jpg" />
                 <div class="content">
-                    <span>travel spot</span>
-                    <h3>iceland</h3>
+                    <span>ponto turístico</span>
+                    <h3>dinamarca</h3>
                 </div>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
                 <img src="images/gallery-img-5.jpg" />
                 <div class="content">
-                    <span>travel spot</span>
+                    <span>ponto turístico</span>
                     <h3>iceland</h3>
                 </div>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
                 <img src="images/gallery-img-7.jpg" />
                 <div class="content">
-                    <span>travel spot</span>
-                    <h3>iceland</h3>
+                    <span>ponto turístico</span>
+                    <h3>islândia</h3>
                 </div>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
                 <img src="images/gallery-img-9.jpg" />
                 <div class="content">
-                    <span>travel spot</span>
-                    <h3>iceland</h3>
+                    <span>ponto turístico</span>
+                    <h3>holanda</h3>
                 </div>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
                 <img src="images/gallery-img-8.jpg" />
                 <div class="content">
-                    <span>travel spot</span>
-                    <h3>iceland</h3>
+                    <span>ponto turístico</span>
+                    <h3>canada</h3>
                 </div>
             </div>
+        </div>
+    </section>
 
+    <section class="reviews">
+        <div class="content" data-aos="fade-right" data-aos-delay="300">
+            <span>relatos</span>
+            <h3>feedback dos nossos clientes</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda laudantium corporis fugiat quae unde
+                perspiciatis similique ab modi enim consequatur aperiam cumque distinctio facilis sit, debitis possimus
+                asperiores non harum.</p>
+        </div>
+        <div class="box-container" data-aos="fade-left" data-aos-delay="600">
+            <div class="box">
+                <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Quia, Ratione.</p>
+                <div class="user">
+                    <img src="./images/pic-1.png" alt="">
+                    <div class="info">
+                        <h3>joão pedro</h3>
+                        <span>designer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Quia, Ratione.</p>
+                <div class="user">
+                    <img src="./images/pic-2.png" alt="">
+                    <div class="info">
+                        <h3>márcia luiza</h3>
+                        <span>escritora</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Quia, Ratione.</p>
+                <div class="user">
+                    <img src="./images/pic-3.png" alt="">
+                    <div class="info">
+                        <h3>daniel rossi</h3>
+                        <span>advogado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Quia, Ratione.</p>
+                <div class="user">
+                    <img src="./images/pic-4.png" alt="">
+                    <div class="info">
+                        <h3>fernanda lima</h3>
+                        <span>médica</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="blogs" id="blogs">
-
         <div class="heading">
             <span>blogs & posts</span>
             <h1>histórias proporcionadas</h1>
         </div>
-
         <div class="box-container">
-
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="150">
                 <div class="image">
                     <img src="images/blog-1.jpg" />
                 </div>
@@ -325,66 +343,65 @@
                     <p>lorem ipsum dolor sit amet consectetur adipisicing elit. pariatur, natus!</p>
                     <div class="icon">
                         <a href="#"><i class="fas fa-clock"></i> 21 de maio de 2021</a>
-                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                        <a href="#"><i class="fas fa-user"></i> por admin</a>
                     </div>
                 </div>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
                 <div class="image">
                     <img src="images/blog-2.jpg" />
                 </div>
                 <div class="content">
-                    <a href="#" class="link">Life is a journey, not a destination</a>
+                    <a href="#" class="link">a vida é uma jornada</a>
                     <p>lorem ipsum dolor sit amet consectetur adipisicing elit. pariatur, natus!</p>
                     <div class="icon">
                         <a href="#"><i class="fas fa-clock"></i> 21 de maio de 2021</a>
-                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                        <a href="#"><i class="fas fa-user"></i> por admin</a>
                     </div>
                 </div>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="450">
                 <div class="image">
                     <img src="images/blog-3.jpg" />
                 </div>
                 <div class="content">
-                    <a href="#" class="link">Life is a journey, not a destination</a>
+                    <a href="#" class="link">a vida é uma jornada</a>
                     <p>lorem ipsum dolor sit amet consectetur adipisicing elit. pariatur, natus!</p>
                     <div class="icon">
                         <a href="#"><i class="fas fa-clock"></i> 21 de maio de 2021</a>
-                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                        <a href="#"><i class="fas fa-user"></i> por admin</a>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
     <div class="banner">
-        <div class="heading">
-            <span>Start Your Adventures</span>
-            <h1>Let's Explore This World</h1>
+        <div data-aos="zoom-in-up" data-aos-delay="300">
+            <div class="heading">
+                <span>comece sua aventura</span>
+                <h1>vamos explorar esse mundo</h1>
+            </div>
+            <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Earum Voluptatum Praesentium Amet Quibusdam Quam
+                Officia Suscipit Odio.</p>
+            <a href="#book-form" class="btn">agendar</a>
         </div>
-        <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Earum Voluptatum Praesentium Amet Quibusdam Quam Officia Suscipit Odio.</p>
-        <a href="#" class="btn">Book Now</a>
     </div>
 
-    <section class="footer">
+    <footer class="footer">
         <div class="box-container">
-
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="100">
                 <a href="#" class="logo"><i class="fas fa-paper-plane"></i>journey</a>
                 <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Obcaecati, Ad?</p>
                 <div class="share">
-                    <a href="#" class="fab fa-instagram"></a>
+                    <a target="_blank" href="https://www.instagram.com/j_pedroll/" class="fab fa-instagram"></a>
                     <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
+                    <a target="_blank" href="https://github.com/joaopedrolt" class="fab fa-github"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/joão-pedro-lima-teixeira-275236215/"
+                        class="fab fa-linkedin"></a>
                 </div>
             </div>
-
-            <div class="box">
+            <div class="box" data-aos="fade-up" data-aos-delay="200">
                 <h3>acesso rápido</h3>
                 <a href="#home" class="links"><i class="fas fa-arrow-right"></i>home</a>
                 <a href="#about" class="links"><i class="fas fa-arrow-right"></i>sobre</a>
@@ -393,9 +410,30 @@
                 <a href="#gallery" class="links"><i class="fas fa-arrow-right"></i>galeria</a>
                 <a href="#blogs" class="links"><i class="fas fa-arrow-right"></i>blogs</a>
             </div>
-
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
+                <h3>contato</h3>
+                <p><i class="fas fa-clock"></i>7:00h - 22:00h</p>
+                <p><i class="fas fa-map"></i>são paulo, SP</p>
+                <p><i class="fas fa-phone"></i>+55 11 91234- 5678</p>
+                <p><i class="fas fa-phone"></i>+55 11 95678-1234</p>
+                <p class="email"><i class="fas fa-envelope"></i>joaopedrolimateixeira@outlook.com</p>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="200">
+                <h3>newsletter</h3>
+                <p>inscreva-se para atualizações</p>
+                <form action="">
+                    <input type="email" class="" placeholder="digite seu email aqui">
+                    <input type="submit" value="inscreva-se" class="btn">
+                </form>
+            </div>
         </div>
-    </section>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./js/aos.js"></script>
 </body>
 
 </html>
