@@ -113,7 +113,7 @@ header .navbar a:hover {
   margin-top: 9rem;
   width: 90%;
   border-radius: 1rem;
-  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url("../../images/home-bg.jpg") no-repeat;
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url('../../images/home-bg.jpg"') no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
